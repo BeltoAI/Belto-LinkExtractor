@@ -16,7 +16,7 @@ app = Flask(__name__)
 logging.basicConfig(level=logging.INFO)
 
 # API keys array
-API_KEYS = ["123456789012345", "abcdefabcdefabc", "qwertyuiopasdfg"]
+API_KEYS = ["zzz", "yyy", "xxx"]
 
 # API key validation
 @app.before_request
@@ -47,7 +47,7 @@ def is_valid_url(url):
 def fetch_video_data(url, include_start_times=False):
     """Fetches and formats video data, optionally including start times in the transcript."""
     try:
-        api_key = os.getenv("YOUTUBE_API_KEY", "AIzaSyDJaToRUzRByDvQeNjpMFXxKQ8aHUjHDBM")
+        api_key = os.getenv("YOUTUBE_API_KEY", "aa")
         video_id = extract_video_id(url)
         if not video_id:
             return "Invalid YouTube URL"
