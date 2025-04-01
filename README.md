@@ -197,5 +197,13 @@ Ensure all dependencies are installed as specified in `requirements.txt`. Key li
 
 ---
 
+# Developer Information
+
+    Developers: Michael Johnson & Emil Shirokikh
+    Organization: Belto Inc.
+    Contact: info@beltoss.com
+    Repository: Belto Textractor GitHub
+
+
 For detailed documentation or issues, contact `info@beltoss.com` or visit the [repository](https://github.com/BeltoAI/Belto-LinkExtractor.git).
 
